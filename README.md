@@ -13,7 +13,7 @@
 <details>
 <summary>Table of Contents</summary>
 <ol>
-    <li><a href="#about-comidit.app">About The Roost · Coffee Shop</a>
+    <li><a href="#">About The Roost · Coffee Shop</a>
         <ul>
         <li><a href="#built-with">Built With</a></li>
         </ul>
