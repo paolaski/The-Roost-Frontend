@@ -37,8 +37,8 @@
 
 ☕ *Spanish · Español*
 
-<p align="center"><strong>El Alpiste · Coffee Shop</strong> es nuestra nueva tienda online donde podrás comprar tus mezclas de café favoritas.</br/>Hemos querido dar un paso mas allá y poder servirte en tu casa el mejor aroma a café tostado, desde Mocha hasta Kilimanjaro. </p>
-<p align="center">También te podremos llevar a casa tus tés favoritos, hemos creado una nueva carta con las mejores infusiones,<br/>siempre podrás venir a que Fígaro te lo prepare en nuestra vajilla especial y disfrutar de los conciertos eventuales de Totakeke...</br>¡Toda una experiencia te aguarda!</p>
+<p align="center"><strong>El Alpiste · Coffee Shop</strong> es nuestra nueva tienda online donde podrás comprar tus mezclas de café favoritas.</br/>Hemos querido dar un paso mas allá y poder servirte el mejor aroma a café tostado, desde Mocha hasta Kilimanjaro. </p>
+<p align="center">También te podremos llevar a casa tus tés favoritos, hemos creado una nueva carta con las mejores infusiones,<br/>siempre podrás venir a que Fígaro te lo prepare en nuestra vajilla especial y disfrutar de los conciertos de Totakeke...</br>¡Toda una experiencia te aguarda!</p>
 
 <p align="center"><strong>¿Vas a venir a visitarnos?</strong></p>
 <p align="center">Ahora tenemos un sistema de reservas para nuestros clientes más asiduos.<br/>
