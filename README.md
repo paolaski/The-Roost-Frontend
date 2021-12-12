@@ -1,9 +1,8 @@
 # Readme.md
 
-<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/hot-beverage_2615.png" alt="Hot Beverage on Apple iOS 14.6" />
+<img align="center" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/hot-beverage_2615.png" alt="Hot Beverage on Apple iOS 14.6" />
 
 <h3 align="center">The Roost · Coffee Shop</h3>
-
 <p align="center">The Roost is our final project linked to Fullstack's Development course organized by Industrial Business School</p>
 <p align="center">From September 2021 to December 2021</p>
 <p align="center"><a href="https://github.com/paolaski/The-Roost-Frontend/projects/1">Report a Bug</a> · <a href="https://github.com/ManuYuzu/The-Roost-Backend">Back-End Repository → </a></p>
@@ -36,32 +35,30 @@
 
 ☕ *Spanish · Español*
 
-**El Alpiste · Coffee Shop** es nuestra nueva tienda online donde podrás comprar tus mezclas de café favoritas. Hemos querido dar un paso mas allá y poder servirte en tu casa el mejor aroma a café tostado, desde Mocha hasta Kilimanjaro. 
+<p align="center"><strong>El Alpiste · Coffee Shop</strong> es nuestra nueva tienda online donde podrás comprar tus mezclas de café favoritas.</br/>Hemos querido dar un paso mas allá y poder servirte en tu casa el mejor aroma a café tostado, desde Mocha hasta Kilimanjaro. </p>
+<p align="center">También te podremos llevar a casa tus tés favoritos, hemos creado una nueva carta con las mejores infusiones,<br/>siempre podrás venir a que Fígaro te lo prepare en nuestra vajilla especial y disfrutar de los conciertos eventuales de Totakeke...</br>¡Toda una experiencia te aguarda!</p>
 
-También te podremos llevar a casa tus tés favoritos, hemos creado una nueva carta con las mejores infusiones, siempre podrás venir a que Fígaro te lo prepare en nuestra vajilla especial y disfrutar de los conciertos eventuales de Totakeke...¡Toda una experiencia te aguarda!
+<p align="center"><strong>¿Vas a venir a visitarnos?</strong></p>
+<p align="center">Ahora tenemos un sistema de reservas para nuestros clientes más asiduos.<br/>
+Podrás elegir mesa y fecha, siempre con unos días de antelación para poder preparar el evento. </p>
 
-**¿Vas a venir a visitarnos?** 
-
-Ahora tenemos un sistema de reservas para nuestros clientes más asiduos. Podrás elegir mesa y fecha, siempre con unos días de antelación para poder preparar el evento. 
-
-**¡Te esperamos!**
+<p align="center"><strong>¡Te esperamos!</strong></p>
 
 ☕ *English ·  Inglés*
 
-**The Roost Coffee Shop** is our new website where you can buy your favourite blends. We take another step forward to serve the most classic roasted coffee aroma, from Mocha to Kilimanjaro.
+<p align="center"><strong>The Roost Coffee Shop</strong> is our new website where you can buy your favourite blends. We take another step forward to serve the most classic roasted coffee aroma, from Mocha to Kilimanjaro.</p>
+<p align="center">We also have delivery service to bring your favourite tea to your home.</br/>We elaborated a new menu with the best ones, although you will always could come to enjoy while Brewster make your drink and attend K.K Slider's performances...<br/>¡A journey into a truly memorable experience!</p>
 
-We also have delivery service to bring  your favourite tea to your home. We elaborated a new menu with the best ones, although you will always could come to enjoy while Brewster make your drink and attend K.K Slider's performances...¡A journey into a truly memorable experience!
+<p align="center"><strong>Will you come with us?</strong></p>
+<p align="center">Now, we have a booking system only for our most faithful customers.<br/>
+You would be able to select table and date, but with a few days in advance to allow us prepare it carefully attending every detail.</p>
 
-**Will you come with us?** 
-
-Now, we have a booking system only for our most faithful customers. You would be able to select table and date, but with a few days in advance to allow us prepare it carefully attending every detail.
-
-**We are waiting for you!**
+<p align="center"><strong>We are waiting for you!</strong></p>
 
 <hr/>
 
 ### Built With
-<a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=deepskyblue&label=react.js&logo=react&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=mediumpurple&label=redux&logo=redux&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a><a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=dodgerblue&label=typescript&logo=typescript&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=orange&label=HTML&logo=html5&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a><a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=darkmagenta&label=stripe&logo=stripe&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a>
+<a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=deepskyblue&label=react.js&logo=react&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=mediumpurple&label=redux&logo=redux&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=dodgerblue&label=typescript&logo=typescript&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=orange&label=HTML&logo=html5&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=darkmagenta&label=stripe&logo=stripe&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a>
 
 <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=steelblue&label=CSS&logo=css3&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=darkturquoise&label=tailwind&logo=tailwindcss&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="GitHub forks" src="https://img.shields.io/twitter/url?color=hotpink&label=sass&logo=sass&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a>
 
@@ -153,7 +150,7 @@ About our team:
 <small><p align="right">(<a href="#top">back to top</a>)</p></small>
 
 ## **Acknowledgements**
-<a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="figma" src="https://img.shields.io/twitter/url?color=lavender&label=figma&logo=figma&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a><a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="adobe illustrator" src="https://img.shields.io/twitter/url?color=gold&label=illustrator&logo=adobeillustrator&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a>
+<a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="figma" src="https://img.shields.io/twitter/url?color=lavender&label=figma&logo=figma&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a> <a href="https://github.com/paolaski/The-Roost-Frontend"><img alt="adobe illustrator" src="https://img.shields.io/twitter/url?color=gold&label=illustrator&logo=adobeillustrator&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fpaolaski%2F"></a>
 
 - Prototype made with **Figma** - [Link to our Layout Prototype](https://www.figma.com/file/AfmPnRmdR0KCDwBou08nND/Untitled?node-id=0%3A1)
 - Logotype & Branding: **Adobe Illustrator, Adobe Color**
