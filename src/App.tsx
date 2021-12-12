@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 import './styles.css';
 
 function App() {
@@ -19,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <h2 className="texto">Hola Mundo 🌍</h2>
       </header>
     </div>
   );
