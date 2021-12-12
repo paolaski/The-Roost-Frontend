@@ -1,13 +1,15 @@
 # Readme.md
 
-<img align="center" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/hot-beverage_2615.png" alt="Hot Beverage on Apple iOS 14.6" />
+<a href="https://github.com/paolaski/The-Roost-Frontend/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/paolaski/The-Roost-Frontend?style=for-the-badge"></a> <a href="https://github.com/paolaski/The-Roost-Frontend/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/github/license/paolaski/The-Roost-Frontend?style=for-the-badge"></a>
 
+<p align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/hot-beverage_2615.png" alt="Hot Beverage on Apple iOS 14.6" /></p>
 <h3 align="center">The Roost · Coffee Shop</h3>
 <p align="center">The Roost is our final project linked to Fullstack's Development course organized by Industrial Business School</p>
 <p align="center">From September 2021 to December 2021</p>
 <p align="center"><a href="https://github.com/paolaski/The-Roost-Frontend/projects/1">Report a Bug</a> · <a href="https://github.com/ManuYuzu/The-Roost-Backend">Back-End Repository → </a></p>
 
 ## Index
+
 <details>
 <summary>Table of Contents</summary>
 <ol>
@@ -67,6 +69,7 @@ You would be able to select table and date, but with a few days in advance to al
 <small><p align="right">(<a href="#top">back to top</a>)</p></small>
 
 ## Getting Started
+
 ### Prerequisites
 
 To get a local copy up and running follow these simple steps:
@@ -98,9 +101,11 @@ We're still working on The Roast · Coffee Shop.  Meanwhile, you can [check our 
 <small><p align="right">(<a href="#top">back to top</a>)</p></small>
 
 ## Roadmap
+
 According to our MVP we will develop this features. The unchecked ones are extra features we would like to work on after.
 
 ### Role Views
+
 - [x] Customer
   - [x] Create, Read and Cancel Orders
   - [x] Create, Read and Cancel Reservations
@@ -111,6 +116,7 @@ According to our MVP we will develop this features. The unchecked ones are extra
   - [x] Manage Customers
 
 ### Views
+
 - [x] Home
 - [x] Shop
 - [x] My Account
@@ -119,6 +125,7 @@ According to our MVP we will develop this features. The unchecked ones are extra
 - [x] Shopping Cart
 
 ### Landing Views
+
 - [x] Menu
 - [ ] 404
 - [ ] Terms
@@ -154,9 +161,9 @@ About our team:
 
 - Prototype made with **Figma** - [Link to our Layout Prototype](https://www.figma.com/file/AfmPnRmdR0KCDwBou08nND/Untitled?node-id=0%3A1)
 - Logotype & Branding: **Adobe Illustrator, Adobe Color**
-- Font: https://www.dafont.com/made-tommy-soft.font
+- Font: [MADE Tommy Soft](https://www.dafont.com/made-tommy-soft.font)
 - Music: [https://soundcloud.com/demongummies](https://soundcloud.com/demongummies)
-- Sound Effects: https://dova-s.jp/
+- Sound Effects: [Dova Syndrome](https://dova-s.jp/)
 - Images: [Unsplash](https://unsplash.com/), [Freepik](https://www.freepik.es/home), [Emojipedia](https://emojipedia.org/)
 
 <small><p align="right">(<a href="#top">back to top</a>)</p></small>
