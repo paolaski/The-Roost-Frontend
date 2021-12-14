@@ -27,8 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-css": "postcss --watch ./src/assets/styles/styles.scss -o src/styles.css",
-    "build-css": "postcss ./src/assets/styles/styles.scss -o src/styles.css"
-  },
+    "build-css": "postcss ./src/assets/styles/styles.scss -o src/styles.css",
+		"c-create": "npx generate-react-cli component"
+	},
   "eslintConfig": {
     "extends": [
       "react-app",
