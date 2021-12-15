@@ -6,16 +6,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "color-emoji";
+  src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
+}
 
-/* TODO: We have to delete all this ↓↓↓↓ */ 
+/* TODO: We have to delete all this ↓↓↓↓ */
 .texto{
-  @apply 
+  @apply
   bg-cyan-500
-  text-gray-200 
-  m-3 
-  py-3 
-  px-5 
+  text-gray-200
+  m-3
+  py-3
+  px-5
   rounded-xl;
+
+	font-family: color-emoji;
+}
+
+i{
+	color: lightskyblue;
+	width: 2em;
 }
 
 body {
