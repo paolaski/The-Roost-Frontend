@@ -1,10 +1,9 @@
-@import "./00_settings/00_settings.scss";
-@import "./10_components/10_components.scss";
-@import "./20_containers/20_containers.scss";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "00_settings/00_settings";
+@import "10_components/10_components";
 
 @font-face {
   font-family: "color-emoji";
@@ -12,20 +11,9 @@
 }
 
 /* TODO: We have to delete all this ↓↓↓↓ */
-.texto{
-  @apply
-  bg-cyan-500
-  text-gray-200
-  m-3
-  py-3
-  px-5
-  rounded-xl;
-
-	font-family: color-emoji;
-}
 
 i{
-	color: lightskyblue;
+	color: $black;
 	width: 2em;
 }
 
