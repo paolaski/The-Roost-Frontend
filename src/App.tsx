@@ -1,7 +1,5 @@
 import React from 'react';
 import './styles.css';
-import { BiBody } from "react-icons/bi";
-
 
 import Header from './components/Header/Header'
 
