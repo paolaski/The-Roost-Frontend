@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
+// ↓↓↓ Icons Imports
 import { RiHomeHeartFill, RiShoppingBag3Fill } from "react-icons/ri";
 import { BsBookmarkPlusFill } from "react-icons/bs";
 import { GiCoffeePot } from "react-icons/gi";
 import { FaUser } from "react-icons/fa";
-import { Link } from 'react-router-dom'
 
 const Header = () => {
 
