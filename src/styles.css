@@ -211,6 +211,43 @@
   gap: 1em;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu .banner {
+  height: 300px;
+  min-width: 100%;
+  background: #B6453D;
+  margin-bottom: 2em;
+}
+.menu__container {
+  color: #313133;
+  width: 80%;
+  max-width: 800px;
+  margin: 2em;
+  background: #F9D0B2;
+  border-radius: 1em;
+  padding: 2em;
+  box-shadow: 0 0 0 0.3em #39393B;
+}
+.menu__container__title {
+  margin: 0 1em 1em;
+}
+.menu__container-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1em;
+}
+.menu__container-list__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @font-face {
   font-family: "color-emoji";
   src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");

@@ -1,0 +1,45 @@
+.menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	& .banner {
+		height: 300px;
+		min-width: 100%;
+		background:  $red;
+		margin-bottom: 2em;
+	}
+
+	&__container {
+		color: $black;
+		width: 80%;
+		max-width: 800px;
+		margin: 2em;
+		background: $brown-w-light;
+		border-radius: 1em;
+		padding: 2em;
+
+
+			box-shadow: 0 0 0 0.3em $green-dark;
+
+
+		&__title {
+			margin: 0 1em 1em;
+		}
+
+		&-list {
+
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			gap: 1em;
+
+			&__block {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+		}
+	}
+}

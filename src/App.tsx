@@ -7,6 +7,7 @@ import Header from './components/Header/Header'
 import Home from './view/Home/Home'
 import Shop from './view/Shop/Shop'
 import Profile from './view/Profile/Profile'
+import Menu from './view/Menu/Menu'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={ <Home /> } />
 					<Route path="/shop" element={<Shop />} />
+					<Route path="/menu" element={<Menu />} />
 					<Route path="/profile" element={ <Profile /> } />
 				</Routes>
 			</Router>
