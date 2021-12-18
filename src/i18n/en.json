@@ -5,5 +5,6 @@
 	"shop"					: "Shop",
 	"menu"					: "Menu",
 	"reservation"		: "Reservation",
-	"profile"				: "My Account"
+	"profile"				: "My Account",
+	"add_to_cart"	: "Add to cart"
 }
