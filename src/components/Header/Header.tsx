@@ -3,7 +3,7 @@ import { RiHomeHeartFill, RiShoppingBag3Fill } from "react-icons/ri";
 import { BsBookmarkPlusFill } from "react-icons/bs";
 import { GiCoffeePot } from "react-icons/gi";
 import { FaUser } from "react-icons/fa";
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -20,7 +20,6 @@ const Header = () => {
 	}
 
 	return (
-		<Router>
 			<header className="header">
 				<nav className="header__menu">
 					<ul className='header__menu__list'>
@@ -58,8 +57,6 @@ const Header = () => {
 					</ul>
 				</nav>
 			</header>
-		</Router>
-
 	)
 }
 
