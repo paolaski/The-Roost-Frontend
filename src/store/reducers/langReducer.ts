@@ -1,4 +1,4 @@
-import { SET_LANGUAGE, LangAction, LangState } from "../../types";
+import { SET_LANGUAGE, LangAction, LangState } from "../types";
 
 
 const localStorageLang = localStorage.getItem('language');

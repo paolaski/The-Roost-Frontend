@@ -1,4 +1,4 @@
-import { LangAction, SET_LANGUAGE } from "../../types";
+import { LangAction, SET_LANGUAGE } from "../types";
 
 
 // Setting Lang
