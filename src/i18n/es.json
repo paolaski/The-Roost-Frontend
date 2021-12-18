@@ -1,0 +1,10 @@
+{
+	"ok"			: "ok",
+	"cancel"	: "cancel",
+	"home"					: "Inicio",
+	"shop"					: "Tienda",
+	"menu"					: "Carta",
+	"reservation"		: "Reserva",
+	"profile"				: "Mi Cuenta",
+	"add_to_cart": "Añadir al carrito"
+}

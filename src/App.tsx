@@ -8,7 +8,6 @@ import Home from './view/Home/Home'
 import Shop from './view/Shop/Shop'
 import Profile from './view/Profile/Profile'
 
-
 function App() {
   return (
     <>
