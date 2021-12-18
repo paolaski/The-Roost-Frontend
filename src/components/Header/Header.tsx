@@ -1,6 +1,11 @@
 import React, { useState, Fragment, FC } from 'react';
-import { useSelector } from 'react-redux';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+<<<<<<< Updated upstream
+=======
+// ↓↓↓ Translator Imports
+import { useSelector } from 'react-redux';
+import { RootState } from '../../store';
+>>>>>>> Stashed changes
 import { translate } from '../../i18n';
 import { RootState } from '../../store';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';

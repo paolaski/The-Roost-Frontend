@@ -12,7 +12,7 @@
   align-items: center;
   color: #462B30;
   min-with: 120px;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .lang-selector__icon {
   margin-top: 0.2em;
@@ -27,7 +27,6 @@
   background-color: #A17171;
   border-radius: 0 0 14px 14px;
   margin-right: 1em;
-  margin-bottom: 3em;
   font-size: 1.2em;
   font-weight: bolder;
   margin-left: 0.2em;
