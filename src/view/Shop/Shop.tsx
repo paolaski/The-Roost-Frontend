@@ -57,17 +57,28 @@ const product_4: productInterface = {
 	tea: tea._1
 }
 
+const product_5: productInterface = {
+	name: 'Red Tea',
+	description: 'This is a type of tea B',
+	image: 'https://static.eldiario.es/clip/1a916b0b-a4db-40d9-bc84-78ac9fb04a29_16-9-aspect-ratio_default_0.jpg',
+	price: 8.12,
+	tea: tea._2
+}
+
 // ↓↓↓ View
 const Shop = () => {
 
-	const products = [product_1, product_2, product_3, product_4]
+	const products = [product_1, product_2, product_3, product_4, product_5]
 
+	// ↓↓↓ To set prices on right value to public
 	const fixPrice = (price: Number) => (Math.ceil(price.valueOf() * 100) / 100).toFixed(2)
 
 	const ProductList = (products: productInterface[]) => {
 
 		const listProducts = products.map( (product, index) => {
-			const fixedPrice = fixPrice(product.price)
+
+			// ↓↓↓ To set prices on right format to public
+			const fixedPrice = fixPrice(product.price).toString().replaceAll('.', ',')
 
 			return (
 			<ProductCard
@@ -75,7 +86,7 @@ const Shop = () => {
 				image={ product.image }
 				name={ product.name }
 				description={ product.description }
-				price={ (fixedPrice).toString().replaceAll('.',',') }
+				price={ fixedPrice }
 				type={ product.coffee ? product.coffee : product.tea }
 			/>
 			)
@@ -86,7 +97,7 @@ const Shop = () => {
 	return (
 		<>
 			<main className="shop-container">
-				{ ProductList(products) }
+					{ ProductList(products) }
 			</main>
 		</>
 	);

@@ -115,7 +115,7 @@
 					height: 20px;
 					border-bottom-right-radius: 80%;
 					background-color: $brown-dark;
-					box-shadow: 0px 10px 0 0 $white;
+					box-shadow: 1px 10px 0 0 $white;
 				}
 
 				&::after {
@@ -127,7 +127,7 @@
 					height: 22px;
 					border-bottom-left-radius: 100%;
 					background-color: $brown-dark;
-					box-shadow: 0px 10px 0 0 $white;
+					box-shadow: -1px 10px 0 0 $white;
 				}
 			}
 		}

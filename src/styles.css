@@ -114,7 +114,7 @@
   height: 20px;
   border-bottom-right-radius: 80%;
   background-color: #462B30;
-  box-shadow: 0px 10px 0 0 #f4f4f4;
+  box-shadow: 1px 10px 0 0 #f4f4f4;
 }
 .header__menu__list-indicator::after {
   content: "";
@@ -125,7 +125,7 @@
   height: 22px;
   border-bottom-left-radius: 100%;
   background-color: #462B30;
-  box-shadow: 0px 10px 0 0 #f4f4f4;
+  box-shadow: -1px 10px 0 0 #f4f4f4;
 }
 
 .productCard {
@@ -165,6 +165,14 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 0.5em;
+}
+
+.shop-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 @font-face {
