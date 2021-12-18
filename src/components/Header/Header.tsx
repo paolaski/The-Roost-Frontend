@@ -1,5 +1,6 @@
 import React, { useState, Fragment, FC } from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 // ↓↓↓ Translator Imports
@@ -7,8 +8,13 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
 >>>>>>> Stashed changes
 import { translate } from '../../i18n';
+=======
+// ↓↓↓ Translator Imports
+>>>>>>> 0e166173817db9b60cd2d3e8cb6ba00955f55b3c
 import { RootState } from '../../store';
+import { translate } from '../../i18n';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
+// ↓↓↓ Icons Imports
 import { RiHomeHeartFill, RiShoppingBag3Fill } from "react-icons/ri";
 import { BsBookmarkPlusFill } from "react-icons/bs";
 import { GiCoffeePot } from "react-icons/gi";
@@ -30,6 +36,7 @@ const Header = () => {
 	}
 
 	return (
+		<>
 			<header className="header">
 				<nav className="header__menu">
 					<ul className='header__menu__list'>
@@ -66,11 +73,10 @@ const Header = () => {
 						<div className="header__menu__list-indicator"></div>
 					</ul>
 				</nav>
-				<div className="header__lang-selector">
-			</div>
+				<div className="header__lang-selector"></div>
 			</header>
 			<LanguageSelector></LanguageSelector>
-		</Router>
+		</>
 	)
 }
 
