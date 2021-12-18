@@ -3,11 +3,11 @@ import { useSelector } from 'react-redux';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { translate } from '../../i18n';
 import { RootState } from '../../store';
+import LanguageSelector from '../LanguageSelector/LanguageSelector';
 import { RiHomeHeartFill, RiShoppingBag3Fill } from "react-icons/ri";
 import { BsBookmarkPlusFill } from "react-icons/bs";
 import { GiCoffeePot } from "react-icons/gi";
 import { FaUser } from "react-icons/fa";
-import LanguageSelector from '../LanguageSelector/LanguageSelector';
 
 const Header = () => {
 	const { language } = useSelector((state: RootState) => state.lang);
@@ -25,7 +25,6 @@ const Header = () => {
 	}
 
 	return (
-		<Router>
 			<header className="header">
 				<nav className="header__menu">
 					<ul className='header__menu__list'>
@@ -67,7 +66,6 @@ const Header = () => {
 			</header>
 			<LanguageSelector></LanguageSelector>
 		</Router>
-
 	)
 }
 
