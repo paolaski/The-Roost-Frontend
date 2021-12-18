@@ -1,0 +1,15 @@
+{
+		"buttons" : {
+			"ok"			: "ok",
+			"cancel"	: "cancel"
+		},
+		"menu": {
+			"home"					: "Inicio",
+			"shop"					: "Tienda",
+			"menu"					: "Carta",
+			"reservation"		: "Reserva",
+			"profile"				: "Mi Cuenta",
+			"es"						: "es",
+			"en"						: "en"
+		}
+}
