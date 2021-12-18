@@ -7,6 +7,8 @@ import Header from './components/Header/Header'
 import Home from './view/Home/Home'
 import Profile from './view/Profile/Profile'
 
+
+
 function App() {
   return (
     <>
