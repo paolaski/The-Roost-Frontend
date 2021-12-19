@@ -1,7 +1,14 @@
 .shop-container {
 	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	flex-wrap: wrap;
-	gap: 1em;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+
+	&__display {
+		display:flex;
+  	justify-content:space-evenly;
+  	flex-wrap:wrap;
+		gap: 1em;
+	}
 }

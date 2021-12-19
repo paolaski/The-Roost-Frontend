@@ -6,11 +6,19 @@
 	"menu"					: "Carta",
 	"reservation"		: "Reserva",
 	"profile"				: "Mi Cuenta",
+	"add_to_cart": "Añadir al carrito",
+	"pumpkin_bagels": "Bagels de calabaza",
+	"mushroom_soup": "Sopa de champiñones",
+	"sea_bass_with_fine_herbs": "Lubina a las finas hierbas",
+	"carrot_cake": "Pastel de zanahoria",
+	"entrants": "Entrantes",
+	"firsts": "Primeros",
+	"seconds": "Segundos",
+	"desserts": "Postres",
 	"about"         : "Sobre Nosotros",
 	"terms"					: "Aviso Legal",
 	"privacy"				: "Política de Privacidad",
 	"cookies"				: "Cookies",
 	"FAQ"						: "Preguntas Frecuentes",
-	"followrrss" 		: "Nuestras redes sociales",
-	"add_to_cart": "Añadir al carrito"
+	"followrrss" 		: "Nuestras redes sociales"
 }

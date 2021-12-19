@@ -16,10 +16,10 @@ enum tea {
 }
 
 interface productInterface {
-	name: String,
-	description: String,
-	image: String,
-	price: Number,
+	name: string,
+	description: string,
+	image: string,
+	price: number,
 	coffee?: coffee,
 	tea?: tea
 }
@@ -71,7 +71,7 @@ const Shop = () => {
 	const products = [product_1, product_2, product_3, product_4, product_5]
 
 	// ↓↓↓ To set prices on right value to public
-	const fixPrice = (price: Number) => (Math.ceil(price.valueOf() * 100) / 100).toFixed(2)
+	const fixPrice = (price: number) => (Math.ceil(price * 100) / 100).toFixed(2)
 
 	const ProductList = (products: productInterface[]) => {
 
@@ -81,14 +81,14 @@ const Shop = () => {
 			const fixedPrice = fixPrice(product.price).toString().replaceAll('.', ',')
 
 			return (
-			<ProductCard
-				key={ index }
-				image={ product.image }
-				name={ product.name }
-				description={ product.description }
-				price={ fixedPrice }
-				type={ product.coffee ? product.coffee : product.tea }
-			/>
+				<ProductCard
+					key={ index }
+					image={ product.image }
+					name={ product.name }
+					description={ product.description }
+					price={ fixedPrice }
+					type={ product.coffee ? product.coffee : product.tea }
+				/>
 			)
 		})
 
@@ -96,8 +96,11 @@ const Shop = () => {
 	}
 	return (
 		<>
+			<div className="banner"></div>
 			<main className="shop-container">
+				<div className="shop-container__display">
 					{ ProductList(products) }
+				</div>
 			</main>
 		</>
 	);

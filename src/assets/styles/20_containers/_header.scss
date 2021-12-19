@@ -10,6 +10,7 @@
 	top: 0;
 	right: 0;
 	left: 0;
+	box-shadow: 0 46px 0  $white;
 
 	&__menu {
 		position: relative;
@@ -28,7 +29,7 @@
 				list-style: none;
 				width: 70px;
 				height: 70px;
-				z-index: 1;
+				z-index: 2;
 
 				&--active {
 					& .header__menu__list-item-link__icon {
@@ -98,13 +99,13 @@
 			}
 
 			&-indicator {
-			position: absolute;
-			top: 35px;
-			width: 70px;
-			height: 70px;
-			border-radius: 50%;
-			background: $white;
-			transition: 0.5s;
+				position: absolute;
+				top: 35px;
+				width: 70px;
+				height: 70px;
+				border-radius: 50%;
+				background: $white;
+				transition: 0.5s;
 
 				&::before {
 					content: '';

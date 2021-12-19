@@ -1,0 +1,39 @@
+.menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	&__container {
+		color: $black;
+		width: 80%;
+		max-width: 800px;
+		margin: 2em;
+		background: $brown-w-light;
+		border-radius: 1em;
+		padding: 2em 5em;
+
+
+			box-shadow: 0 0 0 0.3em $green-dark;
+
+
+		&__title {
+			margin: 0.5em 0;
+		}
+
+		&-list {
+
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			gap: 1em;
+			margin-bottom: 3em;
+
+			&__block {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+		}
+	}
+}

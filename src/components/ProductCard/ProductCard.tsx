@@ -16,7 +16,7 @@ const ProductCard = (product: any) => {
 				<button>{product.name}</button>
 				<button>{product.type}</button>
 				<p className="productCard__text">{product.description}</p>
-				<button>{translate('add_to_cart', language)} {product.price}€</button>
+				<button>{translate('add_to_cart', language)} {product.price} €</button>
 			</div>
 		</div>
 	)
