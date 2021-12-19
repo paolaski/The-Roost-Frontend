@@ -230,17 +230,18 @@
   margin: 2em;
   background: #F9D0B2;
   border-radius: 1em;
-  padding: 2em;
+  padding: 2em 5em;
   box-shadow: 0 0 0 0.3em #39393B;
 }
 .menu__container__title {
-  margin: 0 1em 1em;
+  margin: 0.5em 0;
 }
 .menu__container-list {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 1em;
+  margin-bottom: 3em;
 }
 .menu__container-list__block {
   display: flex;

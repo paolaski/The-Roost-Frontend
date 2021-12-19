@@ -81,14 +81,14 @@ const Shop = () => {
 			const fixedPrice = fixPrice(product.price).toString().replaceAll('.', ',')
 
 			return (
-			<ProductCard
-				key={ index }
-				image={ product.image }
-				name={ product.name }
-				description={ product.description }
-				price={ fixedPrice }
-				type={ product.coffee ? product.coffee : product.tea }
-			/>
+				<ProductCard
+					key={ index }
+					image={ product.image }
+					name={ product.name }
+					description={ product.description }
+					price={ fixedPrice }
+					type={ product.coffee ? product.coffee : product.tea }
+				/>
 			)
 		})
 
