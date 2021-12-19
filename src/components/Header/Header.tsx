@@ -25,6 +25,7 @@ const Header = () => {
 	}
 
 	return (
+		<>
 			<header className="header">
 				<nav className="header__menu">
 					<ul className='header__menu__list'>
@@ -65,7 +66,7 @@ const Header = () => {
 			</div>
 			</header>
 			<LanguageSelector></LanguageSelector>
-		</Router>
+		</>
 	)
 }
 

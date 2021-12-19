@@ -1,9 +1,16 @@
 {
-	"ok"			: "ok",
-	"cancel"	: "cancel",
+	"ok"						: "ok",
+	"cancel"				: "cancel",
 	"home"					: "Inicio",
 	"shop"					: "Tienda",
 	"menu"					: "Carta",
 	"reservation"		: "Reserva",
-	"profile"				: "Mi Cuenta"
+	"profile"				: "Mi Cuenta",
+	"about"         : "Sobre Nosotros",
+	"terms"					: "Aviso Legal",
+	"privacy"				: "Política de Privacidad",
+	"cookies"				: "Cookies",
+	"FAQ"						: "Preguntas Frecuentes",
+	"followrrss" 		: "Nuestras redes sociales"
+
 }

@@ -1,9 +1,15 @@
 {
-	"ok"			: "Aceptar",
-	"cancel"	: "Cancelar",
+	"ok"						: "Aceptar",
+	"cancel"				: "Cancelar",
 	"home"					: "Home",
 	"shop"					: "Shop",
 	"menu"					: "Menu",
 	"reservation"		: "Reservation",
-	"profile"				: "My Account"
+	"profile"				: "My Account",
+	"about"					: "About",
+	"terms"					: "Terms of service",
+	"privacy"				: "Privacy Policy",
+	"cookies"				: "Cookies",
+	"FAQ"						: "FAQ",
+	"followrrss" 		: "Follow Us"
 }
