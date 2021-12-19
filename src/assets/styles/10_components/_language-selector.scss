@@ -7,6 +7,10 @@
 	margin-bottom: 2em;
 	font-family: 'MADE Tommy Soft - Bold', sans-serif, Arial, Helvetica;
 
+
+	position: relative;
+	z-index: 1;
+
 	&__icon{
 		margin-top: 0.2em;
 		min-width: 1em;
