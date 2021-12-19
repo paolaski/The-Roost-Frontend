@@ -1,5 +1,10 @@
 import React from 'react';
 
+// ↓↓↓ Translator Imports
+import { useSelector } from 'react-redux';
+import { RootState } from '../../store';
+import { translate } from '../../i18n';
+
 enum type {
 	_1 = 'Entrant',
 	_2 = 'First',
@@ -8,40 +13,41 @@ enum type {
 }
 
 interface plateInterface {
-	name: String,
-	price: Number,
+	name: string,
+	price: number,
 	type: type
 }
 
 const plate_1: plateInterface = {
-	name: 'Pumpkin Bagels',
+	name: 'pumpkin_bagels',
 	price: 6.225,
 	type: type._1
 }
 
 const plate_2: plateInterface = {
-	name: 'Mushroom soup',
+	name: 'mushroom_soup',
 	price: 9.17,
 	type: type._2
 }
 
 const plate_3: plateInterface = {
-	name: 'Sea bass with fine herbs',
+	name: 'sea_bass_with_fine_herbs',
 	price: 18.776,
 	type: type._3
 }
 
 const plate_4: plateInterface = {
-	name: 'Carrot Cake',
+	name: 'carrot_cake',
 	price: 3.551,
 	type: type._4
 }
 
 const Menu = () => {
+	const { language } = useSelector((state: RootState) => state.lang);
 
 	const plates = [plate_1, plate_2, plate_3, plate_4]
 
-	const fixPrice = (price: Number) => (Math.ceil(price.valueOf() * 100) / 100).toFixed(2)
+	const fixPrice = (price: number) => (Math.ceil(price * 100) / 100).toFixed(2)
 
 	// ↓↓↓ Entrnats
 	const EntrantsPlatesList = (plates: plateInterface[]) => {
@@ -51,7 +57,7 @@ const Menu = () => {
 			const fixedPrice = fixPrice(plate.price).toString().replaceAll('.', ',')
 			return (
 					<li className="menu__container-list__block" key={ index }>
-						<span>{ plate.name }</span><span>{ fixedPrice } €</span>
+						<span>{ translate(plate.name, language) }</span><span>{ fixedPrice } €</span>
 					</li>
 			)
 		})
@@ -65,7 +71,7 @@ const Menu = () => {
 			const fixedPrice = fixPrice(plate.price).toString().replaceAll('.', ',')
 			return (
 				<li className="menu__container-list__block" key={index}>
-					<span>{plate.name}</span><span>{fixedPrice} €</span>
+					<span>{ translate(plate.name, language) }</span><span>{fixedPrice} €</span>
 				</li>
 			)
 		})
@@ -80,7 +86,7 @@ const Menu = () => {
 			const fixedPrice = fixPrice(plate.price).toString().replaceAll('.', ',')
 			return (
 				<li className="menu__container-list__block" key={index}>
-					<span>{plate.name}</span><span>{fixedPrice} €</span>
+					<span>{ translate(plate.name, language) }</span><span>{fixedPrice} €</span>
 				</li>
 			)
 		})
@@ -95,7 +101,7 @@ const Menu = () => {
 			const fixedPrice = fixPrice(plate.price).toString().replaceAll('.', ',')
 			return (
 				<li className="menu__container-list__block" key={index}>
-					<span>{plate.name}</span><span>{fixedPrice} €</span>
+					<span>{ translate(plate.name, language) }</span><span>{fixedPrice} €</span>
 				</li>
 			)
 		})
@@ -107,22 +113,22 @@ const Menu = () => {
 			<div className="banner"></div>
 			<div className="menu">
 				<div className="menu__container">
-					<h1 className="menu__container__title">Entrants</h1>
+					<h1 className="menu__container__title">{ translate('entrants', language) }</h1>
 					<ul className="menu__container-list">
 						{EntrantsPlatesList(plates)}
 					</ul>
 
-					<h1 className="menu__container__title">Firsts</h1>
+					<h1 className="menu__container__title">{translate('firsts', language)}</h1>
 					<ul className="menu__container-list">
 						{FirstsPlatesList(plates)}
 					</ul>
 
-					<h1 className="menu__container__title">Seconds</h1>
+					<h1 className="menu__container__title">{translate('seconds', language)}</h1>
 					<ul className="menu__container-list">
 						{SecondsPlatesList(plates)}
 					</ul>
 
-					<h1 className="menu__container__title">Desserts</h1>
+					<h1 className="menu__container__title">{translate('desserts', language)}</h1>
 					<ul className="menu__container-list">
 						{DessertsPlatesList(plates)}
 					</ul>

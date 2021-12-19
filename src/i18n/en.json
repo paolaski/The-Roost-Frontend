@@ -6,5 +6,13 @@
 	"menu"					: "Menu",
 	"reservation"		: "Reservation",
 	"profile"				: "My Account",
-	"add_to_cart"	: "Add to cart"
+	"add_to_cart"	: "Add to cart",
+	"pumpkin_bagels" : "Pumpkin Bagels",
+	"mushroom_soup" : "Mushroom soup",
+	"sea_bass_with_fine_herbs" : "Sea bass with fine herbs",
+	"carrot_cake" : "Carrot cake",
+	"entrants":"Entrants",
+	"firsts":"Firsts",
+	"seconds":"Seconds",
+	"desserts": "Desserts"
 }
