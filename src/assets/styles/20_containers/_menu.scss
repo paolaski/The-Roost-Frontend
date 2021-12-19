@@ -4,13 +4,6 @@
 	justify-content: flex-start;
 	align-items: center;
 
-	& .banner {
-		height: 300px;
-		min-width: 100%;
-		background:  $red;
-		margin-bottom: 2em;
-	}
-
 	&__container {
 		color: $black;
 		width: 80%;

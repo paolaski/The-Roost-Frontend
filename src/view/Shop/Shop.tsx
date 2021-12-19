@@ -96,8 +96,11 @@ const Shop = () => {
 	}
 	return (
 		<>
+			<div className="banner"></div>
 			<main className="shop-container">
+				<div className="shop-container__display">
 					{ ProductList(products) }
+				</div>
 			</main>
 		</>
 	);

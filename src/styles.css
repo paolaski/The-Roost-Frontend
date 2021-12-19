@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-with: 120px;
+  min-width: 100px;
   max-width: 10%;
   padding: 0.5em 1em;
   background-color: #A17171;
@@ -43,6 +43,13 @@
 }
 .lang-selector__lang-list__item:active {
   color: #313133;
+}
+
+.banner {
+  height: 300px;
+  min-width: 100%;
+  background: #B6453D;
+  margin-bottom: 2em;
 }
 
 /* Import All Containers */
@@ -205,6 +212,13 @@
 
 .shop-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.shop-container__display {
+  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -216,12 +230,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-.menu .banner {
-  height: 300px;
-  min-width: 100%;
-  background: #B6453D;
-  margin-bottom: 2em;
 }
 .menu__container {
   color: #313133;

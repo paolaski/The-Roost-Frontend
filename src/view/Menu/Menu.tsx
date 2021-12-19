@@ -104,8 +104,8 @@ const Menu = () => {
 
   return (
 		<>
+			<div className="banner"></div>
 			<div className="menu">
-				<div className="banner"></div>
 				<div className="menu__container">
 					<h1 className="menu__container__title">Entrants</h1>
 					<ul className="menu__container-list">
