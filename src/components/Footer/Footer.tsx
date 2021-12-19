@@ -36,7 +36,7 @@ return (
 		<div className="footer__section  footer__section--4"></div>
 		<div className="footer__section  footer__section--5">
 			<div className="footer__section__content">
-				<p className="footer__section__content__item">Síguenos en redes</p>
+				<p className="footer__section__content__item">{translate('followrrss', language)}</p>
 				<div className="social-media">
 					<a target="_blank" href="https://twitter.com/animalcrossing" className="footer__section__content__item social-media__icon"><RiTwitterFill/></a>
 					<a target="_blank" href="https://www.instagram.com/animalcrossing_official/" className="footer__section__content__item social-media__icon"><RiInstagramFill/></a>
