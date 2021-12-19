@@ -5,6 +5,8 @@
 	color: $brown-dark;
 	min-with: 120px;
 	margin-bottom: 1em;
+	position: relative;
+	z-index: 1;
 
 	&__icon{
 		margin-top: 0.2em;
