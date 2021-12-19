@@ -1,6 +1,6 @@
 {
-	"ok"			: "Aceptar",
-	"cancel"	: "Cancelar",
+	"ok"						: "Aceptar",
+	"cancel"				: "Cancelar",
 	"home"					: "Home",
 	"shop"					: "Shop",
 	"menu"					: "Menu",
@@ -14,5 +14,11 @@
 	"entrants":"Entrants",
 	"firsts":"Firsts",
 	"seconds":"Seconds",
-	"desserts": "Desserts"
+	"desserts": "Desserts",
+	"about"					: "About",
+	"terms"					: "Terms of service",
+	"privacy"				: "Privacy Policy",
+	"cookies"				: "Cookies",
+	"FAQ"						: "FAQ",
+	"followrrss" 		: "Follow Us"
 }

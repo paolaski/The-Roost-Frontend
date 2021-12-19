@@ -8,12 +8,13 @@ import Home from './view/Home/Home'
 import Shop from './view/Shop/Shop'
 import Profile from './view/Profile/Profile'
 import Menu from './view/Menu/Menu'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <>
 			<Router>
-				<Header />
+			<Header />
 				<Routes>
 					<Route path="/" element={ <Home /> } />
 					<Route path="/shop" element={<Shop />} />
@@ -21,6 +22,7 @@ function App() {
 					<Route path="/profile" element={ <Profile /> } />
 				</Routes>
 			</Router>
+			<Footer/>
     </>
   );
 }

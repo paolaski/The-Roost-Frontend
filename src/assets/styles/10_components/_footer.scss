@@ -1,0 +1,85 @@
+.footer{
+	width: 100%;
+	padding: 1em 5em;
+	background-color: $green-dark;
+	color: $green;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-column-gap: 1em;
+
+	&__section{
+		display:flex;
+		flex-direction: column;
+
+		&--1{
+			grid-row: 1;
+			grid-column: 1;
+			grid-row-end: 1;
+		}
+
+		&--2{
+			grid-row: 1;
+			grid-column: 2;
+			grid-row-end: 1;
+		}
+
+		&--3{
+			grid-row: 1;
+			grid-column: 3;
+			grid-row-end: 1;
+		}
+
+		&--4{
+			grid-row: 1;
+			grid-column: 4;
+			grid-row-end: 1;
+		}
+
+		&--5{
+			grid-row: 1;
+			grid-column: 5;
+			grid-row-end: 1;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+		}
+
+		&__content{
+			display: flex;
+			flex-direction: column;
+
+			&__item{
+				color: $green;
+				padding: 0.1em;
+
+				&:link{
+					text-decoration: none;
+				}
+
+				&:hover{
+					cursor:pointer;
+				}
+			}
+		}
+	}
+}
+
+.social-media{
+	padding:0.5em;
+	&__icon{
+		font-size: 1.5em;
+	}
+}
+
+.triangle{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 4em;
+	margin-bottom: -1.5em;
+
+	&__icon{
+		color: $green-dark;
+		font-size: 3.5em;
+	}
+}
