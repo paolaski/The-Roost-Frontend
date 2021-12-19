@@ -51,14 +51,29 @@
   font-size: 1.2em;
   font-family: "MADE Tommy Soft - Regular", sans-serif, Arial, Helvetica;
   color: #7F4F4F;
-  margin: 1em 0;
+  display: flex;
+  width: 100%;
+}
+.title--margin {
+  margin: 1em 0 0.5em 0;
+}
+.title--centered {
+  justify-content: center;
+  align-items: center;
+}
+.title--shadow {
+  text-shadow: #313133 2px 2px 8px;
+}
+.title--xxl {
+  font-size: 4em;
+  font-family: "MADE Tommy Soft - ExtraBold", sans-serif, Arial, Helvetica;
 }
 .title--xl {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: "MADE Tommy Soft - ExtraBold", sans-serif, Arial, Helvetica;
 }
 .title--lg {
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-family: "MADE Tommy Soft - Bold", sans-serif, Arial, Helvetica;
 }
 .title--md {
@@ -80,6 +95,26 @@
 }
 .title--black {
   color: #313133;
+}
+
+.c-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-image--border-radius {
+  border-radius: 1em;
+}
+.c-image__parallax img.react-parallax-bgimage {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.c-image__parallax__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer {

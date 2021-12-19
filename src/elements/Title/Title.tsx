@@ -1,24 +1,24 @@
 import React, {FC} from 'react';
-import internal from 'stream';
 
-/*
-	Size: lg, md, sm
-
-*/
 interface TitleProps{
 	text?: string;
 	size?: string;
 	color?: string;
+	centered?: boolean;
+	margin?: boolean;
+	shadow?: boolean;
 }
 
-const Title: FC<TitleProps> = ({text, size, color}) => {
+const Title: FC<TitleProps> = ({text, size, color, centered, margin, shadow}) => {
  let titleClassSize = "title";
  let titleClassColor = "title";
- let titleClass = "";
+ let titleClass = "title ";
 
- if(size === "xl"){
-		titleClassSize += "--xl";
- }else if (size === "lg"){
+ if(size === "xxl"){
+		titleClassSize += "--xxl";
+ } else if(size === "xl"){
+	titleClassSize += "--xl";
+} else if (size === "lg"){
 		titleClassSize += "--lg";
  }else if (size === "md"){
 		titleClassSize += "--md";
@@ -36,13 +36,23 @@ const Title: FC<TitleProps> = ({text, size, color}) => {
 	titleClassColor += "--white";
  } else if (color === "black"){
 	titleClassColor += "--black";
- }
-
- else {
+ } else {
 	titleClassColor += "";
  }
 
-titleClass = titleClassSize + " " + titleClassColor;
+ if(centered){
+	titleClass += "title--centered ";
+ }
+
+ if(margin){
+	titleClass += "title--margin ";
+ }
+
+ if(shadow){
+	titleClass += "title--shadow ";
+ }
+
+titleClass += titleClassSize + " " + titleClassColor;
 
 return (
 	<>

@@ -4,15 +4,34 @@
 	font-size: 1.2em;
 	font-family: 'MADE Tommy Soft - Regular', sans-serif, Arial, Helvetica;
 	color: $brown;
-	margin: 1em 0;
+	display: flex;
+	width: 100%;
+
+	&--margin{
+		margin: 1em 0 0.5em 0;
+	}
+
+	&--centered{
+		justify-content: center;
+		align-items: center;
+	}
+
+	&--shadow{
+		text-shadow: $black 2px 2px 8px;
+	}
+
+	&--xxl{
+		font-size: 4em;
+		font-family: 'MADE Tommy Soft - ExtraBold', sans-serif, Arial, Helvetica;
+	}
 
 	&--xl{
-		font-size: 3em;
+		font-size: 2.5em;
 		font-family: 'MADE Tommy Soft - ExtraBold', sans-serif, Arial, Helvetica;
 	}
 
 	&--lg{
-		font-size: 2.5em;
+		font-size: 2.3em;
 		font-family: 'MADE Tommy Soft - Bold', sans-serif, Arial, Helvetica;
 	}
 

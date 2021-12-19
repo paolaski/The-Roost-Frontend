@@ -1,0 +1,26 @@
+.c-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&--border-radius{
+		border-radius: 1em;
+	}
+
+	&__parallax{
+		& img.react-parallax-bgimage{
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: bottom;
+		}
+
+		&__content{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+	}
+
+
+}
