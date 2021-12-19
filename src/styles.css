@@ -13,6 +13,7 @@
   color: #462B30;
   min-width: 200px;
   margin-bottom: 2em;
+  font-family: "MADE Tommy Soft - Bold", sans-serif, Arial, Helvetica;
 }
 .lang-selector__icon {
   margin-top: 0.2em;
@@ -44,6 +45,76 @@
 }
 .lang-selector__lang-list__item:active {
   color: #313133;
+}
+
+.title {
+  font-size: 1.2em;
+  font-family: "MADE Tommy Soft - Regular", sans-serif, Arial, Helvetica;
+  color: #7F4F4F;
+  display: flex;
+  width: 100%;
+}
+.title--margin {
+  margin: 1em 0 0.5em 0;
+}
+.title--centered {
+  justify-content: center;
+  align-items: center;
+}
+.title--shadow {
+  text-shadow: #313133 2px 2px 8px;
+}
+.title--xxl {
+  font-size: 4em;
+  font-family: "MADE Tommy Soft - ExtraBold", sans-serif, Arial, Helvetica;
+}
+.title--xl {
+  font-size: 2.5em;
+  font-family: "MADE Tommy Soft - ExtraBold", sans-serif, Arial, Helvetica;
+}
+.title--lg {
+  font-size: 2.3em;
+  font-family: "MADE Tommy Soft - Bold", sans-serif, Arial, Helvetica;
+}
+.title--md {
+  font-size: 2em;
+  font-family: "MADE Tommy Soft - Medium", sans-serif, Arial, Helvetica;
+}
+.title--sm {
+  font-size: 1.5em;
+  font-family: "MADE Tommy Soft - Medium", sans-serif, Arial, Helvetica;
+}
+.title--brown {
+  color: #462B30;
+}
+.title--green {
+  color: #39393B;
+}
+.title--white {
+  color: #f4f4f4;
+}
+.title--black {
+  color: #313133;
+}
+
+.c-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-image--border-radius {
+  border-radius: 1em;
+}
+.c-image__parallax img.react-parallax-bgimage {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.c-image__parallax__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer {
@@ -291,12 +362,53 @@
   font-family: "color-emoji";
   src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
 }
+@font-face {
+  font-family: "MADE Tommy Soft - Black";
+  src: local("MADE Tommy Soft Black"), local("MADETommySoft-Black"), url("./assets/fonts/MADETommySoft-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MADE Tommy Soft - Light";
+  src: local("MADE Tommy Soft Light"), local("MADETommySoft-Light"), url("./assets/fonts/MADETommySoft-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MADE Tommy Soft - ExtraBold";
+  src: local("MADE Tommy Soft ExtraBold"), local("MADETommySoft-ExtraBold"), url("./assets/fonts/MADETommySoft-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MADE Tommy Soft - Thin";
+  src: local("MADE Tommy Soft Thin"), local("MADETommySoft-Thin"), url("./assets/fonts/MADETommySoft-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MADE Tommy Soft - Medium";
+  src: local("MADE Tommy Soft Medium"), local("MADETommySoft-Medium"), url("./assets/fonts/MADETommySoft-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MADE Tommy Soft - Regular";
+  src: local("MADE Tommy Soft"), local("MADETommySoft"), url("./assets/fonts/MADETommySoft.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MADE Tommy Soft - Bold";
+  src: local("MADE Tommy Soft Bold"), local("MADETommySoft-Bold"), url("./assets/fonts/MADETommySoft-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 /*  GLOBAL PROPERTIES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -307,7 +419,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f4f4f4;
-  font-family: Sans-Serif;
+  font-family: "MADE Tommy Soft - Light", sans-serif, Arial, Helvetica;
   line-height: 1;
 }
 
