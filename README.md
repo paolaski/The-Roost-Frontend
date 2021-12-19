@@ -2,7 +2,7 @@
 
 <a href="https://github.com/paolaski/The-Roost-Frontend/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/paolaski/The-Roost-Frontend?style=for-the-badge"></a>
 
-<p align="center"><img src="./public/img/logo.svg" width="300px" alt="logo" /></p>
+<p align="center"><img src="./public/img/logo-brown.svg" width="300px" alt="logo" /></p>
 <h3 align="center">The Roost · Coffee Shop</h3>
 <p align="center">The Roost is our final project linked to Fullstack's Development course organized by Industrial Business School</p>
 <p align="center">From September 2021 to December 2021</p>
