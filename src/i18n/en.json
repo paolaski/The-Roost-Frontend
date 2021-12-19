@@ -1,10 +1,16 @@
 {
-	"ok"			: "Aceptar",
-	"cancel"	: "Cancelar",
+	"ok"						: "Aceptar",
+	"cancel"				: "Cancelar",
 	"home"					: "Home",
 	"shop"					: "Shop",
 	"menu"					: "Menu",
 	"reservation"		: "Reservation",
 	"profile"				: "My Account",
-	"add_to_cart"	: "Add to cart"
+	"about"					: "About",
+	"terms"					: "Terms of service",
+	"privacy"				: "Privacy Policy",
+	"cookies"				: "Cookies",
+	"FAQ"						: "FAQ",
+	"followrrss" 		: "Follow Us",
+	"add_to_cart"		: "Add to cart"
 }
