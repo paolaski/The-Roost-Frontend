@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
 
 interface TitleProps{
-	text?: string;
 	size?: string;
 	color?: string;
 	centered?: boolean;
@@ -9,7 +8,7 @@ interface TitleProps{
 	shadow?: boolean;
 }
 
-const Title: FC<TitleProps> = ({text, size, color, centered, margin, shadow}) => {
+const Title: FC<TitleProps> = ({size, color, centered, margin, shadow,children}) => {
  let titleClassSize = "title";
  let titleClassColor = "title";
  let titleClass = "title ";
@@ -57,7 +56,7 @@ titleClass += titleClassSize + " " + titleClassColor;
 return (
 	<>
 		<div data-testid="Title" className="title">
-				<span className={titleClass}>{text}</span>
+				<span className={titleClass}>{children}</span>
 		</div>
 	</>
 )

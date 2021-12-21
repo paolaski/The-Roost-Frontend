@@ -10,6 +10,7 @@ import Profile from './view/Profile/Profile'
 import Menu from './view/Menu/Menu'
 import Footer from './components/Footer/Footer';
 import Reservations from './view/Reservations/Reservations'
+import Legal from './view/Legal/Legal'
 
 
 
@@ -24,6 +25,8 @@ function App() {
 					<Route path="/menu" element={<Menu />} />
 					<Route path="/reservations" element={<Reservations />} />
 					<Route path="/profile" element={ <Profile /> } />
+					<Route path="/legal" element={ <Legal /> } />
+					{/* <Route path="/privacy" element={ <Privacy /> } /> */}
 				</Routes>
 			</Router>
 			<Footer/>

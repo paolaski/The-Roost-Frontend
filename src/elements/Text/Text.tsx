@@ -1,14 +1,13 @@
 import React, {FC} from 'react';
 
 interface TextProps{
-	text?: string;
 	alignment?: string;
 	textColor?: string;
 	backgroundColor?: string;
 	size?: string;
 }
 
-const Text: FC<TextProps> = ({text, alignment, textColor, backgroundColor, size}) => {
+const Text: FC<TextProps> = ({alignment, textColor, backgroundColor, size, children}) => {
 	let textClass = "text-container__text ";
 	let textColorClass = "text-container__text";
 	let horizontalAlignClass = "text-container__text";
@@ -78,7 +77,7 @@ const Text: FC<TextProps> = ({text, alignment, textColor, backgroundColor, size}
 	return (
   <>
 		<div data-testid="Text" className="text-container">
-			<p className={textClass}>{text}</p>
+			<p className={textClass}>{children}</p>
 		</div>
 	</>
 );

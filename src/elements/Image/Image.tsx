@@ -4,34 +4,15 @@ import Title from '../Title/Title';
 
 interface ImageProps{
 	src?: string;
-	parallax?: boolean;
 	width?: number;
 	height?: number;
-	title?: string;
-	description?: string;
 	radius?: boolean;
-	logo?: boolean;
 }
 
-const Image: FC<ImageProps> = ({width, height, parallax, src, title, radius, description, logo}) => {
+const Image: FC<ImageProps> = ({width, height, src, radius}) => {
 	let classImage: string = "c-image";
 	radius ? classImage += " c-image--border-radius" : classImage += "";
-	parallax ? classImage += " c-image__parallax" : classImage += " c-image__image";
 
-	if (parallax === true){
-		return(
-			<>
-			<Parallax bgImage={src} strength={height} className={classImage}>
-						<div style={{height: height + "px"}} className="c-image__parallax__content">
-							{logo ? <img src="./img/logo-white.svg" width="200px"/> : ""}
-							{title != "" ? <Title size="xxl" color="white" text={title} centered shadow></Title> : ""}
-							{description != "" ? <Title size="md" color="white" text={description} centered shadow></Title> : ""}
-						</div>
-			</Parallax>
-			</>
-		);
-	}
-	else {
 		return(
 			<>
 			<div className="c-image" data-testid="Image">
@@ -39,7 +20,6 @@ const Image: FC<ImageProps> = ({width, height, parallax, src, title, radius, des
 			</div>
 			</>
 		);
-	}
 }
 
 export default Image;
