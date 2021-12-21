@@ -11,6 +11,8 @@ import Menu from './view/Menu/Menu'
 import Footer from './components/Footer/Footer';
 import Reservations from './view/Reservations/Reservations'
 
+
+
 function App() {
   return (
     <>

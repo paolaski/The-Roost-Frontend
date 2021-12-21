@@ -5,15 +5,15 @@ import Title from '../Title/Title';
 interface ImageProps{
 	src?: string;
 	parallax?: boolean;
-	width?: string;
+	width?: number;
 	height?: number;
-	alt?: string;
 	title?: string;
 	description?: string;
 	radius?: boolean;
+	logo?: boolean;
 }
 
-const Image: FC<ImageProps> = ({width, height, alt, parallax, src, title, radius, description}) => {
+const Image: FC<ImageProps> = ({width, height, parallax, src, title, radius, description, logo}) => {
 	let classImage: string = "c-image";
 	radius ? classImage += " c-image--border-radius" : classImage += "";
 	parallax ? classImage += " c-image__parallax" : classImage += " c-image__image";
@@ -23,6 +23,7 @@ const Image: FC<ImageProps> = ({width, height, alt, parallax, src, title, radius
 			<>
 			<Parallax bgImage={src} strength={height} className={classImage}>
 						<div style={{height: height + "px"}} className="c-image__parallax__content">
+							{logo ? <img src="./img/logo-white.svg" width="200px"/> : ""}
 							{title != "" ? <Title size="xxl" color="white" text={title} centered shadow></Title> : ""}
 							{description != "" ? <Title size="md" color="white" text={description} centered shadow></Title> : ""}
 						</div>
@@ -33,8 +34,8 @@ const Image: FC<ImageProps> = ({width, height, alt, parallax, src, title, radius
 	else {
 		return(
 			<>
-			<div className="c-image">
-				<img data-testid="Image" width={width} height={height} srcSet={src} alt={alt} className={classImage}/>
+			<div className="c-image" data-testid="Image">
+				<div className={classImage} style={{backgroundImage: `url(${src})`, width: width + "%", height: height + "vh"}}></div>
 			</div>
 			</>
 		);
