@@ -8,7 +8,7 @@ const ProductCard = (product: any) => {
 
 	const { language } = useSelector((state: RootState) => state.lang);
 	return (
-		<div className='productCard'>
+		<div data-testid="ProductCard" className='productCard'>
 			<div className="productCard__image">
 				<img src={product.image} alt="placeholder" />
 			</div>

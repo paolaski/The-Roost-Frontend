@@ -109,32 +109,32 @@ const Menu = () => {
 	}
 
   return (
-		<>
+		<div data-testid="Menu">
 			<div className="banner"></div>
 			<div className="menu">
 				<div className="menu__container">
 					<h1 className="menu__container__title">{ translate('entrants', language) }</h1>
 					<ul className="menu__container-list">
-						{EntrantsPlatesList(plates)}
+						{ EntrantsPlatesList(plates) }
 					</ul>
 
-					<h1 className="menu__container__title">{translate('firsts', language)}</h1>
+					<h1 className="menu__container__title">{ translate('firsts', language) }</h1>
 					<ul className="menu__container-list">
-						{FirstsPlatesList(plates)}
+						{ FirstsPlatesList(plates) }
 					</ul>
 
-					<h1 className="menu__container__title">{translate('seconds', language)}</h1>
+					<h1 className="menu__container__title">{ translate('seconds', language) }</h1>
 					<ul className="menu__container-list">
-						{SecondsPlatesList(plates)}
+						{ SecondsPlatesList(plates) }
 					</ul>
 
-					<h1 className="menu__container__title">{translate('desserts', language)}</h1>
+					<h1 className="menu__container__title">{ translate('desserts', language) }</h1>
 					<ul className="menu__container-list">
-						{DessertsPlatesList(plates)}
+						{ DessertsPlatesList(plates) }
 					</ul>
 				</div>
 			</div>
-		</>
+		</div>
 	)
 };
 

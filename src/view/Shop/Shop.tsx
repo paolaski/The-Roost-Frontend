@@ -95,14 +95,14 @@ const Shop = () => {
 		return (listProducts)
 	}
 	return (
-		<>
+		<div data-testid="Shop">
 			<div className="banner"></div>
 			<main className="shop-container">
 				<div className="shop-container__display">
 					{ ProductList(products) }
 				</div>
 			</main>
-		</>
+		</div>
 	);
 }
 

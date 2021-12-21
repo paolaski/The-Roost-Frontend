@@ -12,7 +12,7 @@ import Reservations from './view/Reservations/Reservations'
 
 function App() {
   return (
-    <>
+    <div data-testid="App">
 			<Router>
 				<Header />
 				<Routes>
@@ -23,7 +23,7 @@ function App() {
 					<Route path="/profile" element={ <Profile /> } />
 				</Routes>
 			</Router>
-    </>
+    </div>
   );
 }
 
