@@ -22,5 +22,12 @@
 		}
 	}
 
+	&__image{
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
 
 }
