@@ -26,7 +26,7 @@ const Text: FC<TextProps> = ({text, alignment, textColor, backgroundColor, size}
  }else if (size === "sm"){
 		textSizeClass += "--sm ";
 	} else{
-		textSizeClass += " ";
+		textSizeClass = " ";
  }
 
 	if(textColor === "white"){
@@ -73,7 +73,7 @@ const Text: FC<TextProps> = ({text, alignment, textColor, backgroundColor, size}
 		horizontalAlignClass = " ";
 	}
 
-	textClass = textColorClass + textSizeClass + horizontalAlignClass + backgroundColorClass;
+	textClass += textColorClass + textSizeClass + horizontalAlignClass + backgroundColorClass;
 
 	return (
   <>

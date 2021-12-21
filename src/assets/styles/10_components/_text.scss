@@ -92,5 +92,17 @@
 			background-color: $black;
 		}
 
+		&--justified{
+			text-align: justify;
+		}
+
+		&--center{
+			text-align: center;
+		}
+
+		&--right{
+			text-align: right;
+		}
+
 	}
 }

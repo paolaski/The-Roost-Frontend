@@ -19,9 +19,10 @@ const Home = () => {
   <>
 		<div>
 			<Image src="./img/fondo_medio.png" height={700} title="The Roost" description="Coffee Shop" parallax logo></Image>
-			<br/>
+			<Title text='Lorem Ipsum' size="xl" color='brown' margin centered></Title>
 			<Text
 					backgroundColor="brownDark"
+					alignment='justified'
 					text="Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 					></Text>
 			<Image src="./img/slider.jpeg" width={100} height={30}></Image>

@@ -231,6 +231,15 @@
 .text-container__text--bg-black {
   background-color: #313133;
 }
+.text-container__text--justified {
+  text-align: justify;
+}
+.text-container__text--center {
+  text-align: center;
+}
+.text-container__text--right {
+  text-align: right;
+}
 
 .title {
   font-size: 1.2em;
