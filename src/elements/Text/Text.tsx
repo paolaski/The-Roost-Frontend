@@ -7,70 +7,38 @@ interface TextProps{
 	size?: string;
 }
 
-const Text: FC<TextProps> = ({alignment, textColor, backgroundColor, size, children}) => {
-	let textClass = "text-container__text ";
-	let textColorClass = "text-container__text";
-	let horizontalAlignClass = "text-container__text";
-	let textSizeClass = "text-container__text";
-	let backgroundColorClass = "text-container__text";
+const Text: FC<TextProps> = ({alignment = "", textColor = "", backgroundColor = "", size = "", children}) => {
+	let textClass 						= "text-container__text ";
+	let textColorClass 				= " text-container__text";
+	let horizontalAlignClass	= " text-container__text";
+	let textSizeClass					= " text-container__text";
+	let backgroundColorClass	= " text-container__text";
 
-	if(size === "xxl"){
-		textSizeClass += "--xxl ";
- } else if(size === "xl"){
-		textSizeClass += "--xl ";
-} else if (size === "lg"){
-		textSizeClass += "--lg ";
- }else if (size === "md"){
-		textSizeClass += "--md ";
- }else if (size === "sm"){
-		textSizeClass += "--sm ";
-	} else{
-		textSizeClass = " ";
- }
+	size === "xxl"	? textSizeClass += "--xxl "	: " ";
+	size === "xl"		? textSizeClass += "--xl " 	: " ";
+	size === "lg"		? textSizeClass += "--lg "	: " ";
+	size === "md"		? textSizeClass += "--md "	: " ";
+	size === "sm"		? textSizeClass += "--sm "	: " ";
 
-	if(textColor === "white"){
-		textColorClass += "--white ";
-	}else if(textColor === "brownDark"){
-		textColorClass += "--brown-dark ";
-	}else if(textColor === "brownLight"){
-		textColorClass += "--brown-light ";
-	}else if(textColor === "green"){
-		textColorClass += "--green ";
-	}else if(textColor === "greenDark"){
-		textColorClass += "--green-dark ";
-	}else if(textColor === "greenLight"){
-		textColorClass += "--green-light ";
-	}else if(textColor === "black"){
-		textColorClass += "--black ";
-	}else{
-		textColorClass = " ";
-	}
+	textColor === "white" 			? textColorClass += "--white " 					: " ";
+	textColor === "brownDark"		?	textColorClass += "--brown-dark " 		: " ";
+	textColor === "brownLight"	?	textColorClass += "--brown-light "		: " ";
+	textColor === "green"				? textColorClass += "--green "					: " ";
+	textColor === "greenDark"		? textColorClass += "--green-dark "			: " ";
+	textColor === "greenLight"	? textColorClass += "--green-light "		: " ";
+	textColor === "black"				? textColorClass += "--black "					: " ";
 
-	if(backgroundColor === "brownDark"){
-		backgroundColorClass += "--bg-brown-dark ";
-	}else if(backgroundColor === "brownLight"){
-		backgroundColorClass += "--bg-brown-light ";
-	}else if(backgroundColor === "green"){
-		backgroundColorClass += "--bg-green ";
-	}else if(backgroundColor === "greenDark"){
-		backgroundColorClass += "--bg-green-dark ";
-	}else if(backgroundColor === "greenLight"){
-		backgroundColorClass += "--bg-green-light ";
-	}else if(backgroundColor === "black"){
-		backgroundColorClass += "--bg-black ";
-	}else{
-		backgroundColorClass = " ";
-	}
+	backgroundColor === "white" 			? backgroundColorClass += "--bg-white " 				: " ";
+	backgroundColor === "brownDark"		?	backgroundColorClass += "--bg-brown-dark " 		: " ";
+	backgroundColor === "brownLight"	?	backgroundColorClass += "--bg-brown-light "		: " ";
+	backgroundColor === "green"				? backgroundColorClass += "--bg-green "					: " ";
+	backgroundColor === "greenDark"		? backgroundColorClass += "--bg-green-dark "		: " ";
+	backgroundColor === "greenLight"	? backgroundColorClass += "--bg-green-light "		: " ";
+	backgroundColor === "black"				? backgroundColorClass += "--bg-black "					: " ";
 
-	if (alignment === "centered"){
-		horizontalAlignClass += "--centered ";
-	}else if (alignment === "right"){
-		horizontalAlignClass += "--right ";
-	}else if (alignment === "justified"){
-		horizontalAlignClass += "--justified ";
-	}else{
-		horizontalAlignClass = " ";
-	}
+	alignment === "centered"		? horizontalAlignClass += "--centered "		: " ";
+	alignment === "right" 			? horizontalAlignClass += "--right "			: " ";
+	alignment === "justified"	  ? horizontalAlignClass += "--justified "	: " ";
 
 	textClass += textColorClass + textSizeClass + horizontalAlignClass + backgroundColorClass;
 

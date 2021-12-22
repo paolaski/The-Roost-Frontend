@@ -18,7 +18,7 @@ const Home = () => {
 	return (
   <>
 		<div>
-		<Parallax bgImage="./img/fondo_medio.png" strength={500} className="c-image__parallax" bgStyle={{ "background-position": "bottom"}}>
+		<Parallax bgImage="./img/fondo_medio.png" strength={300} className="c-image__parallax" bgStyle={{ "background-position": "bottom"}}>
 						<div className="c-image__parallax__content">
 							<img src="./img/logo-white.svg" width="200px"/>
 							<Title size="xxl" color="white" margin centered shadow>{title}</Title>

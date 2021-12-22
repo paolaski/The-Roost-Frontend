@@ -11,6 +11,7 @@ interface ImageProps{
 
 const Image: FC<ImageProps> = ({width, height, src, radius}) => {
 	let classImage: string = "c-image";
+
 	radius ? classImage += " c-image--border-radius" : classImage += "";
 
 		return(
