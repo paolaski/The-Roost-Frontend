@@ -20,14 +20,14 @@ const LanguageSelector: FC<HeaderProps> = ({fixed, transparent}) => {
 	}
 
 	return(
-		<>
+		<div data-testid="LanguageSelector">
 			<div  className="lang-selector">
 				<span className="lang-selector__lang-list">
 					<RiTranslate className="lang-selector__icon" />
 					<a className = "lang-selector__lang-list__item" onClick={() => chooseLanguageHandler('EN')}>EN</a><BsDot className="lang-selector__icon"/>				<a className = "lang-selector__lang-list__item"  onClick={() => chooseLanguageHandler('ES')}>ES</a>
 				</span>
 			</div>
-		</>
+		</div>
 	)
 }
 
