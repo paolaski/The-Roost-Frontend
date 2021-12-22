@@ -3,13 +3,17 @@
 	justify-content: right;
 	align-items: center;
 	color: $brown-dark;
-	min-with: 120px;
-	margin-bottom: 1em;
+	min-width: 200px;
+	margin-bottom: 2em;
+	font-family: 'MADE Tommy Soft - Bold', sans-serif, Arial, Helvetica;
+
+
 	position: relative;
 	z-index: 1;
 
 	&__icon{
 		margin-top: 0.2em;
+		min-width: 1em;
 	}
 
 	&__lang-list{

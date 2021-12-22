@@ -1,6 +1,6 @@
 {
-	"ok"			: "Aceptar",
-	"cancel"	: "Cancelar",
+	"ok"						: "Aceptar",
+	"cancel"				: "Cancelar",
 	"home"					: "Home",
 	"shop"					: "Shop",
 	"menu"					: "Menu",
@@ -15,5 +15,11 @@
 	"firsts":"Firsts",
 	"seconds":"Seconds",
 	"desserts": "Desserts",
-	"apple_pie": "Apple pie"
+	"apple_pie": "Apple pie",
+	"about"					: "About",
+	"terms"					: "Terms of service",
+	"privacy"				: "Privacy Policy",
+	"cookies"				: "Cookies",
+	"FAQ"						: "FAQ",
+	"followrrss" 		: "Follow Us"
 }

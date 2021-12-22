@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 
 
-const Reservation = () => {
+const Reservations = () => {
 	const [value, onChange] = useState(new Date())
+
 	return (
 
 		<>
@@ -27,4 +28,4 @@ const Reservation = () => {
 		</>
 	);
 }
-export default Reservation;
+export default Reservations
