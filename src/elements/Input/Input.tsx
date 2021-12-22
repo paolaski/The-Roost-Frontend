@@ -1,10 +1,13 @@
 import React from 'react';
 
+const Input = () => {
 
-const Input = () => (
+
+	return (
   <div data-testid="Input">
-    Input Component
+		<div className="input">
+		</div>
   </div>
-);
+)}
 
 export default Input;

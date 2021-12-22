@@ -1,9 +1,8 @@
 import React from 'react';
 import './styles.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-// ↓↓↓ Global Components
+
 import Header from './components/Header/Header'
-// ↓↓↓ Views
 import Home from './view/Home/Home'
 import Shop from './view/Shop/Shop'
 import Profile from './view/Profile/Profile'
@@ -18,7 +17,7 @@ import Cookies from './view/Cookies/Cookies'
 
 function App() {
   return (
-    <>
+    <div data-testid="App">
 			<Router>
 			<Header />
 				<Routes>
@@ -33,7 +32,7 @@ function App() {
 				</Routes>
 			</Router>
 			<Footer/>
-    </>
+    </div>
   );
 }
 

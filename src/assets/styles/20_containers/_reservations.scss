@@ -1,0 +1,48 @@
+.reservationContainer {
+	min-width: 300px;
+	width: 100%;
+	min-height: 400px;
+	border-radius: 2em;
+	background: $brown-light;
+	color: $brown-w-light;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1em 0vw;
+
+  &__division {
+    width:40%;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		color: white;
+
+		&__section {
+			display: flex;
+			justify-content: center;
+		}
+  }
+}
+input, textarea, button {
+	margin: 1em;
+	border-radius:0.5em;
+	border: 0;
+	width: 50%;
+}
+
+input {
+	height: 2em;
+}
+
+textarea {
+	height: 6em;
+}
+
+button {
+	background-color: $brown-dark;
+	color: $brown-w-light;
+	height: 3em;
+
+}
