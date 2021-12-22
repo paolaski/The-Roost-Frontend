@@ -245,6 +245,7 @@
 }
 .menu__container__title {
   margin: 0.5em 0;
+  text-transform: capitalize;
 }
 .menu__container-list {
   display: flex;
