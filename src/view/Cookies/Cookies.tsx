@@ -2,17 +2,18 @@ import React from 'react';
 import Title from '../../elements/Title/Title';
 import Text from '../../elements/Text/Text'
 import Link from '../../elements/Link/Link';
+import Container from '../../elements/Container/Container';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import { translate } from '../../i18n';
 
-const Privacy = () => {
+const Cookies = () => {
 const { language } = useSelector((state: RootState) => state.lang);
-
 return (
-  <div data-testid="Privacy">
-		<Text>
-		<Title size="xl" color='brownDark' centered margin>{translate("privacy", language)}</Title>
+  <div data-testid="Cookies">
+		<Container width={50}>
+    <Text>
+		<Title size="xl" color='brownDark' centered margin>{translate("cookies", language)}</Title>
 		The Roost te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios que puedan ser recabados durante la navegación a través del sitio Web <Link hrefTo="https://www.theroost.coffee/">https://www.theroost.coffee/</Link>. <br />
 		En este sentido, The Roost garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales, reflejada en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y de Garantía de Derechos Digitales (LOPD GDD).
 		Cumple también con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD).
@@ -124,8 +125,8 @@ return (
 		El Titular se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a novedades legislativas o jurisprudenciales, así como a prácticas de la industria.<br />
 		Estas políticas estarán vigentes hasta que sean modificadas por otras debidamente publicadas.<br /><br />
 		</Text>
+		</Container>
   </div>
 );
 }
-
-export default Privacy;
+export default Cookies;

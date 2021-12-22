@@ -11,6 +11,8 @@ import Menu from './view/Menu/Menu'
 import Footer from './components/Footer/Footer';
 import Reservations from './view/Reservations/Reservations'
 import Legal from './view/Legal/Legal'
+import Privacy from './view/Privacy/Privacy'
+import Cookies from './view/Cookies/Cookies'
 
 
 
@@ -26,7 +28,8 @@ function App() {
 					<Route path="/reservations" element={<Reservations />} />
 					<Route path="/profile" element={ <Profile /> } />
 					<Route path="/legal" element={ <Legal /> } />
-					{/* <Route path="/privacy" element={ <Privacy /> } /> */}
+					<Route path="/privacy" element={ <Privacy /> } />
+					<Route path="/cookies" element={ <Cookies /> } />
 				</Routes>
 			</Router>
 			<Footer/>
