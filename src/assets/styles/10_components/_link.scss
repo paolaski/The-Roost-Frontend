@@ -1,0 +1,22 @@
+.link{
+	font-family: 'MADE Tommy Soft - Bold', sans-serif, Arial, Helvetica;
+	color: $brown-light;
+	text-decoration: none;
+
+	&:hover{ color: $brown-dark; }
+	&:active{	color: $brown; }
+
+	&--black{
+		color: $black;
+
+		&:hover{ color: $brown-dark; }
+		&:active{ color: $brown; }
+	}
+
+	&--green{
+		color: $green-light;
+		&:hover{ color: $green-dark; }
+		&:active{ color: $green; }
+	}
+
+}

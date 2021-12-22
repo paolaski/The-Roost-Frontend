@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
 
 interface TitleProps{
-	text?: string;
 	size?: string;
 	color?: string;
 	centered?: boolean;
@@ -9,55 +8,36 @@ interface TitleProps{
 	shadow?: boolean;
 }
 
-const Title: FC<TitleProps> = ({text, size, color, centered, margin, shadow}) => {
- let titleClassSize = "title";
- let titleClassColor = "title";
- let titleClass = "title ";
+const Title: FC<TitleProps> = ({size = "", color = "", centered = false, margin = false, shadow = false, children}) => {
 
- if(size === "xxl"){
-		titleClassSize += "--xxl";
- } else if(size === "xl"){
-	titleClassSize += "--xl";
-} else if (size === "lg"){
-		titleClassSize += "--lg";
- }else if (size === "md"){
-		titleClassSize += "--md";
- }else if (size === "sm"){
-		titleClassSize += "--sm";
-	} else{
-		titleClassSize += "";
- }
+let titleClass = "title ";
+let titleClassSize = " title";
+let titleClassColor = " title";
 
- if(color === "brown"){
-	titleClassColor += "--brown";
- } else if (color === "green"){
-	titleClassColor += "--green";
- } else if (color === "white"){
-	titleClassColor += "--white";
- } else if (color === "black"){
-	titleClassColor += "--black";
- } else {
-	titleClassColor += "";
- }
+ size === "xxl"		? titleClassSize += "--xxl ": "";
+ size === "xl"		? titleClassSize += "--xl " : "";
+ size === "lg"		? titleClassSize += "--lg "	: "";
+ size === "md"		? titleClassSize += "--md "	: "";
+ size === "sm"		? titleClassSize += "--sm "	: "";
 
- if(centered){
-	titleClass += "title--centered ";
- }
+ color === "white" 			? titleClassColor += "--white " 				: "";
+ color === "brownDark"	?	titleClassColor += "--brown-dark " 		: "";
+ color === "brownLight"	?	titleClassColor += "--brown-light "		: "";
+ color === "green"			? titleClassColor += "--green "					: "";
+ color === "greenDark"	? titleClassColor += "--green-dark "		: "";
+ color === "greenLight"	? titleClassColor += "--green-light "		: "";
+ color === "black"			? titleClassColor += "--black "					: "";
 
- if(margin){
-	titleClass += "title--margin ";
- }
+ centered === true	? titleClass += "title--centered "	: "";
+ margin		=== true	? titleClass += "title--margin " 		: "";
+ shadow		=== true	? titleClass += "title--shadow " 		: "";
 
- if(shadow){
-	titleClass += "title--shadow ";
- }
-
-titleClass += titleClassSize + " " + titleClassColor;
+ titleClass += titleClassSize + " " + titleClassColor;
 
 return (
 	<>
 		<div data-testid="Title" className="title">
-				<span className={titleClass}>{text}</span>
+				<span className={titleClass}>{children}</span>
 		</div>
 	</>
 )

@@ -2,6 +2,7 @@
 @import "10_components/10_components";
 @import "20_containers/20_containers";
 
+
 @font-face {
   font-family: "color-emoji";
   src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
@@ -73,6 +74,9 @@
 }
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: $brown-light;
 	font-size: 16px;
 	margin: 70px 0 0 0;

@@ -8,10 +8,9 @@
 	}
 
 	&__parallax{
-		& img.react-parallax-bgimage{
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-position: bottom;
+
+		& .react-parallax-background-children{
+			transform: translate3d(-50%, -180px, 0px);
 		}
 
 		&__content{
@@ -19,6 +18,7 @@
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;
+			padding: 3em 0;
 		}
 	}
 

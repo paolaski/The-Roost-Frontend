@@ -7,9 +7,9 @@ import { translate } from '../../i18n';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
 // ↓↓↓ Icons Imports
 import { RiHomeHeartFill, RiShoppingBag3Fill } from "react-icons/ri";
-import { BsBookmarkPlusFill } from "react-icons/bs";
-import { GiCoffeePot } from "react-icons/gi";
+import { RiBookMarkFill } from "react-icons/ri";
 import { FaUser } from "react-icons/fa";
+import { Coffee } from 'tabler-icons-react';
 
 const Header = () => {
 	const { language } = useSelector((state: RootState) => state.lang);
@@ -39,25 +39,25 @@ const Header = () => {
 						</li>
 						<li className={currentLink == 2 ? 'header__menu__list-item header__menu__list-item--active' : 'header__menu__list-item'} onClick={manageClick(2)}>
 							<Link className="header__menu__list-item-link" to="/shop">
-								<span className="header__menu__list-item-link__icon"><RiShoppingBag3Fill /></span>
+								<span className="header__menu__list-item-link__icon"><RiShoppingBag3Fill size={30}/></span>
 								<span className="header__menu__list-item-link__text">{translate('shop', language)}</span>
 							</Link>
 						</li>
 						<li className={currentLink == 3 ? 'header__menu__list-item header__menu__list-item--active' : 'header__menu__list-item'} onClick={manageClick(3)}>
 							<Link className="header__menu__list-item-link" to="/menu">
-								<span className="header__menu__list-item-link__icon"><GiCoffeePot /></span>
+								<span className="header__menu__list-item-link__icon"><Coffee size={34}/></span>
 								<span className="header__menu__list-item-link__text">{translate('menu', language)}</span>
 							</Link>
 						</li>
 						<li className={currentLink == 4 ? 'header__menu__list-item header__menu__list-item--active' : 'header__menu__list-item'} onClick={manageClick(4)}>
 							<Link className="header__menu__list-item-link" to="/reservations">
-								<span className="header__menu__list-item-link__icon"><BsBookmarkPlusFill /></span>
+								<span className="header__menu__list-item-link__icon"><RiBookMarkFill size={32}/></span>
 								<span className="header__menu__list-item-link__text">{translate('reservation', language)}</span>
 							</Link>
 						</li>
 						<li className={currentLink == 5 ? 'header__menu__list-item header__menu__list-item--active' : 'header__menu__list-item'} onClick={manageClick(5)}>
 							<Link className="header__menu__list-item-link" to="/profile">
-								<span className="header__menu__list-item-link__icon"><FaUser /></span>
+								<span className="header__menu__list-item-link__icon"><FaUser size={28}/></span>
 								<span className="header__menu__list-item-link__text">{translate('profile', language)}</span>
 							</Link>
 						</li>
