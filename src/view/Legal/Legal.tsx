@@ -2,19 +2,23 @@ import React from 'react';
 import Title from '../../elements/Title/Title';
 import Text from '../../elements/Text/Text'
 import Link from '../../elements/Link/Link';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../store';
+import { translate } from '../../i18n';
 
 
 const Legal = () => {
+const { language } = useSelector((state: RootState) => state.lang);
 return (
   <div data-testid="Legal">
 	 <Text>
-	 <Title size="xl" color='brownDark' centered margin>Aviso Legal</Title>
+	 <Title size="xl" color='brownDark' centered margin>{translate("terms", language)}</Title>
 	 <Title size="sm" color='brownDark' margin>Identificación y Titularidad</Title>
 		En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos.<br />
 				<strong>Titular:</strong> El Apliste | Cafetería <br />
 				<strong>Correo electrónico:</strong> <Link hrefTo="contact@roost.coffee" refTo="mailto" description="Contacto Condiciones Legales The Roost">contact@roost.coffee</Link> <br />
 				<strong>Sitio Web:</strong> <Link hrefTo="https://www.theroost.coffee/">https://www.theroost.coffee/</Link> <br />
-				<strong>Telefono de Contacto: </strong><Link hrefTo="917886400" refTo="tel">917 88 64 00</Link> <br />
+				<strong>Telefono de Contacto: </strong><Link hrefTo={917886400} refTo="tel">917 88 64 00</Link> <br />
 				<br /><br />
 
 		<Title size="sm" color='brownDark' margin>Finalidad</Title>
